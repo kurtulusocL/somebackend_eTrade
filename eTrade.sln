@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTrade.WebApi", "eTrade.WebApi\eTrade.WebApi.csproj", "{F1E959FC-57AA-4BFB-9E91-9149ACAFDA77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTrade.Business", "eTrade.Business\eTrade.Business.csproj", "{FAD26EBD-58F6-4DEB-98F6-F00E6E022D56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTrade.Core", "eTrade.Core\eTrade.Core.csproj", "{2229C59F-F0A5-49B8-853F-38F36C74C485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTrade.DataAccess", "eTrade.DataAccess\eTrade.DataAccess.csproj", "{44B843B4-B905-4C7E-97AA-E34A7A43CAE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTrade.Entities", "eTrade.Entities\eTrade.Entities.csproj", "{ED6B0C48-7300-49E8-B8E7-05390BB95482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTrade.SignalR", "eTrade.SignalR\eTrade.SignalR.csproj", "{86CB089D-ED00-47BA-BC8D-702AB818664D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E959FC-57AA-4BFB-9E91-9149ACAFDA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E959FC-57AA-4BFB-9E91-9149ACAFDA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E959FC-57AA-4BFB-9E91-9149ACAFDA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E959FC-57AA-4BFB-9E91-9149ACAFDA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD26EBD-58F6-4DEB-98F6-F00E6E022D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD26EBD-58F6-4DEB-98F6-F00E6E022D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD26EBD-58F6-4DEB-98F6-F00E6E022D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD26EBD-58F6-4DEB-98F6-F00E6E022D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2229C59F-F0A5-49B8-853F-38F36C74C485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2229C59F-F0A5-49B8-853F-38F36C74C485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2229C59F-F0A5-49B8-853F-38F36C74C485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2229C59F-F0A5-49B8-853F-38F36C74C485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B843B4-B905-4C7E-97AA-E34A7A43CAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B843B4-B905-4C7E-97AA-E34A7A43CAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B843B4-B905-4C7E-97AA-E34A7A43CAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B843B4-B905-4C7E-97AA-E34A7A43CAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6B0C48-7300-49E8-B8E7-05390BB95482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6B0C48-7300-49E8-B8E7-05390BB95482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6B0C48-7300-49E8-B8E7-05390BB95482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6B0C48-7300-49E8-B8E7-05390BB95482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CB089D-ED00-47BA-BC8D-702AB818664D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CB089D-ED00-47BA-BC8D-702AB818664D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CB089D-ED00-47BA-BC8D-702AB818664D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CB089D-ED00-47BA-BC8D-702AB818664D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {831C7DA7-7503-4659-BBAE-9BF26B74F006}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,51 @@
+﻿
+namespace eTrade.Core.CrossCuttingConcern.Toolbox
+{
+    public static class NameToolbox
+    {
+        public static string CharacterRegulatory(string name)
+
+           => name.Replace("\"", "")
+                .Replace("!", "")
+                .Replace("^", "")
+                .Replace("+", "")
+                .Replace("%", "")
+                .Replace("/", "")
+                .Replace("(", "")
+                .Replace(")", "")
+                .Replace("{", "")
+                .Replace("}", "")
+                .Replace("[", "")
+                .Replace("]", "")
+                .Replace("=", "")
+                .Replace("_", "")
+                .Replace("", "")
+                .Replace("@", "")
+                .Replace("$", "")
+                .Replace("#", "")
+                .Replace("½", "")
+                .Replace(">", "")
+                .Replace("<", "")
+                .Replace(";", "")
+                .Replace("é", "")
+                .Replace("€", "")
+                .Replace("~", "")
+                .Replace("|", "")
+                .Replace(".", "-")
+                .Replace(";", "")
+                .Replace(":", "")
+                .Replace("¨", "")
+                .Replace("Ö", "o")
+                .Replace("Ü", "u")
+                .Replace("İ", "i")
+                .Replace("Ğ", "g")
+                .Replace("ö", "o")
+                .Replace("ğ", "g")
+                .Replace("æ", "")
+                .Replace("ü", "u")
+                .Replace("ß", "")
+                .Replace("Ç", "c")
+                .Replace("ç", "c")
+                .Replace("`", "");
+    }
+}
