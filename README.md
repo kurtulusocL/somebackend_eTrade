@@ -1,4 +1,6 @@
 # somebackend_eTrade
 
---- you can type to read and write services in business layer to data access layer.
---- i started that way then i did not change it. Use them in the data access and code only part of services in the business.
+--- It was one case for solve to some issues. One of purpose was code to api layer without change to entity layer. you need use automapper for this.
+Also
+--- Type to read and write services in business layer to data access layer.
+--- Use them in the data access and code only part of services in the business.
